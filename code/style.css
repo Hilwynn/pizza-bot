@@ -1,0 +1,88 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(225, 245, 196);
+  font-family: 'Roboto', sans-serif;
+}
+
+label p {
+  color: rgb(255, 78, 80);
+  margin: 0 0 5px 5px;
+}
+
+.form {
+  background-color: rgb(241, 247, 233);
+  border: 1px solid rgb(249, 212, 35);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 70px auto;
+  min-height: 450px;
+  padding: 70px 40px;
+  width: 550px;
+}
+
+.field {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input, button {
+  color: rgb(255, 78, 80);
+  font-size: 15px;
+  height: 34px;
+  line-height: 2rem;
+  width: 100%;
+}
+
+input {
+  background-color: rgba(237, 229, 116, 0.3);
+  border: 1px solid rgb(249,212,35);
+  color: rgba(0, 0, 0, 0.8);
+  padding: 5px 10px;
+  -webkit-transition: all 0.30s ease-in-out;
+  transition: all 0.30s ease-in-out;
+}
+
+input:focus, button:focus {
+  -webkit-box-shadow: 0 0 5px rgb(255,78,80);
+          box-shadow: 0 0 5px rgb(255, 78, 80);
+  border: 1px solid rgb(255, 78, 80);
+  outline: none;
+  
+}
+
+button {
+  background-color: rgba(237, 229, 116, 0.6);
+  border: 1px solid rgb(252, 145, 58);
+  color: rgb(252, 145, 58);
+  display: inline-block;
+  line-height: 2rem;
+  margin: 10px 0 30px;
+  padding: 0;
+  -webkit-transition: all 0.30s ease-in-out;
+  transition: all 0.30s ease-in-out;
+}      
+
+button:hover {
+  border-color: rgb(255, 78, 80);
+}
+
+#order-box {
+  background-color: rgba(237,229,116,0.3);
+  border: 1px solid rgb(249,212,35);
+  display: none;
+  color: rgba(0, 0, 0, 0.8);
+  height: 80px;
+  padding: 20px;
+  width: 100%;
+}

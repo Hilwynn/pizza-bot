@@ -1,0 +1,14 @@
+<script>
+  let hawaiianPizza = `Hawaiian pizza is a pizza topped with tomato sauce, cheese, pineapple, and back bacon or ham. Some versions may include peppers, mushrooms, bacon or pepperoni. Pineapple as a pizza topping divides public opinion: Hawaiian was the most popular pizza in Australia in 1999, accounting for 15% of pizza sales, and a 2015 review of independent UK takeaways operating through Just Eat found the Hawaiian pizza to be the most commonly available. However, a 2016 survey of US adults had pineapple in the top three least favourite pizza toppings, ahead of anchovies and mushrooms. Greek-Canadian Sam Panopoulos claimed that he created the first Hawaiian pizza at the Satellite Restaurant in Chatham, Ontario, Canada in 1962. Inspired in part by his experience preparing Chinese dishes which commonly mix sweet and savoury flavours, Panopoulos experimented with adding pineapple, ham, bacon and other toppings which were not initially very popular. The addition of pineapple to the traditional mix of tomato sauce and cheese, sometimes with ham or sometimes with bacon, soon became popular locally and eventually became a staple offering of pizzerias around the world.`
+ 
+  console.log(hawaiianPizza)
+  
+  console.log(hawaiianPizza.length)
+  
+  const countPineapple = (string, subString) => {
+    return string.match(new RegExp(subString, "gi")).length;
+  }
+
+  console.log(countPineapple(hawaiianPizza, "pineapple"))
+  
+</script>
