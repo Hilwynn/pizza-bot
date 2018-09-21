@@ -47,7 +47,7 @@ const submitOrder = () => {
       if (orderQuantity > 1) {
       orderMessage = `We'll get started on your ${orderName}s right away. It will take ${cookingTime} minutes and cost ${orderTotal} kr.`
       } else {
-        orderMessage = `We'll get started on your ${orderName}s right away. It will take ${cookingTime} minutes and cost ${orderTotal} kr.`
+        orderMessage = `We'll get started on your ${orderName} right away. It will take ${cookingTime} minutes and cost ${orderTotal} kr.`
       }
     }
   }
